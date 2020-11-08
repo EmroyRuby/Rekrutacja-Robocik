@@ -1,0 +1,2 @@
+Najpierw włączamy Obliczanie.py, następnie Łódka.py, w konsoli podajemy ile kordynatów ma zostać wylosowanych (n), i co jaki czas liczony w sec (t).
+W konsoli Obliczania wypiszą się: otrzymane kordynaty w formie tablicy i prędkości pomiędzy poprzednim, a aktualnym punkcie (łódka zaczyna w pkt 0,0,0).
