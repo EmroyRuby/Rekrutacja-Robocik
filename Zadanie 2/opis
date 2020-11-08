@@ -1,1 +1,9 @@
-tu będzie opis
+Tego zadania nie byłem w stanie skończyć. Jako że nigdy nie pisałem czegoś z taką ilością warunków do spełnienia to poległem, ale wysyłam mimo to :).
+Streszczając: klasa Piece zawiera informacje te same dla wszystkich figur: położenie na planszy 
+(Pole A8 to pole x = 1, y = 1. x zwiększa się w miarę jak schodzimy w dół np: pole A7 to już x = 2, y = 1. y zwiększa się im dalej w prawo na planszy: pole B8 to: x = 1, y = 2.)
+Zawiera też typ figurki i kolor. Funkcja remove_wrong_moves usuwa z zestawu ruchów wszystkie ruchy które wychodzą poza plansze.
+Każda klasa o nazwie figury zwraca zestaw ruchów dozwolony dla tej figurki (zwraca pole nawet gdy jest zablokowane przez inną figure)
+czytaj_plansze zwraca spis wszystkich figur.
+zablokowane_ruchy usuwają te ruchy które są blokowane przez inne figurki (nie uwzględnia koloru)
+szachowanie zwraca wszystkie ruchy dla danej figurki które dają szacha na wrogim królu oraz wypisuje w konsoli stosowną komende.
+Tyle robi ten program, nie byłem w stanie połączyć tych informacji aby stworzyć funkcje która zwracałaby ruchy powodujące mata :(
